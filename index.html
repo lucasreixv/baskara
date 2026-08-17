@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js" defer></script>
+    <title>Baskara</title>
+</head>
+
+<body id="baska">
+    <form id="form2">
+        <h2>Calculadora de Baskara</h2>
+        <br><br/>
+        
+        <input type="text" id="txtn1">
+        <label > x2 + </label>
+
+        <input type="text" id="txtn2">
+        <label> x +</label>
+
+        <input type="text" id="txtn3">
+        <label> = 0 </label>
+        <br><br>
+
+        <h3>o valor de delta:</h3>
+        <input type="text" id="delta" readonly>
+        <br>
+
+        <h3>As raizes são:</h3>
+        <label>x1 =</label>
+        <input type="text" id="txtx1" readonly>
+        <label>x2 = </label>
+        <input type="text" id="txtx2" readonly>
+        <br><br>
+
+        <input type="button" value="Calcular" onclick="Calcula('+')">
+
+        <input type="reset" value="limpar" onclick="limpar()">
+
+    </form>
+    
+</body>
+</html>
