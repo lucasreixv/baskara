@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;                                                                                                                                                                                                                                                                                                                                                                                          ;
+  color:#614852;
+  margin:0;
+  padding: 40px;
+  display:flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Trabalhe conosco";
+  font-size:55px;
+  color:rgb(63, 28, 28);
+  margin-top:10%;
+  margin-bottom:60px;
+  padding:0%;
+  text-align: center;
+}
+
+h2 {
+  color: #41122d;
+  font-size: 22px;
+
+}
+legend {
+    color:rgb(63, 28, 28);
+    font-size:28px;
+    padding: 0 10px;
+}
+
+label {
+    color:rgb(90, 12, 64);
+    font-family: 'Cambria', 'Cochin', 'Times New Roman';
+    font-size:18px;
+}
+
+input,
+select {
+
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+label {
+
+  font-weight: bold;
+  color: rgb(90, 29, 65);
+
+}
+
+fieldset {
+  border: 2px solid rgb(179, 133, 152);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#fim {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+button,
+#enviar {
+  padding: 14p 30px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(255, 212, 242);
+  color: rgb(17, 5, 5);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+#enivar:hover{
+
+  background-color: rgb(235, 204, 176);
+  transform: scale(1.05)
+}
+
+#container {
+
+  width: 700px;
+  background-color: rgb(255, 229, 241);
+  padding: 40px;
+  border-radius: 25px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+
+}
+
+input[type="text"],
+input[type="password"],
+select{
+
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: rgb(252, 237, 243);
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgb(224, 172, 189);
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+
+  width: auto;
+  margin-right: 0px;
+}
+
+.dados-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px
+}
